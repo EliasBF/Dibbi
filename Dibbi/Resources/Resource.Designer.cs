@@ -41,11 +41,63 @@ namespace Dibbi
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040002
+			public const int colorAccent = 2130968578;
+			
+			// aapt resource value: 0x7f040000
+			public const int colorPrimary = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int colorPrimaryDark = 2130968577;
+			
+			// aapt resource value: 0x7f040006
+			public const int navigationBarColor = 2130968582;
+			
+			// aapt resource value: 0x7f040005
+			public const int statusBarColor = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int textColorPrimary = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int windowBackground = 2130968579;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ic_mic_black_36dp = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int ic_pause_black_36dp = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int ic_play_arrow_black_36dp = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int ic_stop_black_36dp = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int Icon = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int SplashLogo = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int SplashScreen = 2130837510;
 			
 			static Drawable()
 			{
@@ -57,11 +109,87 @@ namespace Dibbi
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f080009
+			public const int ItemDate = 2131230729;
+			
+			// aapt resource value: 0x7f080007
+			public const int ItemDescription = 2131230727;
+			
+			// aapt resource value: 0x7f08000a
+			public const int ItemDuration = 2131230730;
+			
+			// aapt resource value: 0x7f080006
+			public const int ItemHeadingLayout = 2131230726;
+			
+			// aapt resource value: 0x7f080008
+			public const int ItemSubHeadingLayout = 2131230728;
+			
+			// aapt resource value: 0x7f080001
+			public const int ListNotes = 2131230721;
+			
+			// aapt resource value: 0x7f080005
+			public const int MainBottomToolbar = 2131230725;
+			
+			// aapt resource value: 0x7f080004
+			public const int MainListEmptyDescription = 2131230724;
+			
+			// aapt resource value: 0x7f080000
+			public const int MainTopToolbar = 2131230720;
+			
+			// aapt resource value: 0x7f080002
+			public const int RecordDescription = 2131230722;
+			
+			// aapt resource value: 0x7f080003
+			public const int RecordDuration = 2131230723;
+			
+			// aapt resource value: 0x7f08000f
+			public const int descriptionText = 2131230735;
+			
+			// aapt resource value: 0x7f08000b
+			public const int linearLayout1 = 2131230731;
+			
+			// aapt resource value: 0x7f08000c
+			public const int linearLayout2 = 2131230732;
+			
+			// aapt resource value: 0x7f080012
+			public const int menuExit = 2131230738;
+			
+			// aapt resource value: 0x7f080010
+			public const int menuRecord = 2131230736;
+			
+			// aapt resource value: 0x7f080011
+			public const int menuStop = 2131230737;
+			
+			// aapt resource value: 0x7f08000e
+			public const int playButton = 2131230734;
+			
+			// aapt resource value: 0x7f08000d
+			public const int seekPlayer = 2131230733;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int MainListItem = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int PlayerDialogLayout = 2130903042;
 			
 			static Layout()
 			{
@@ -73,14 +201,45 @@ namespace Dibbi
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int main_bottom_menu = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int main_top_menu = 2131165185;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050003
+			public const int ApplicationName = 2131034115;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050005
+			public const int ClockLabel = 2131034117;
+			
+			// aapt resource value: 0x7f050001
+			public const int MainListEmpty = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int MainTitle = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int PlayerDialogTitle = 2131034114;
+			
+			// aapt resource value: 0x7f050004
+			public const int RecordDescription = 2131034116;
 			
 			static String()
 			{
@@ -88,6 +247,25 @@ namespace Dibbi
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int DibbiTheme_Main = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int DibbiTheme_Splash = 2131099649;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
