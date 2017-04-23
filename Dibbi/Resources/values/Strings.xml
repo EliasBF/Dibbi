@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
+    <string name="MainTitle">Notas de voz</string>
+    <string name="MainListEmpty">Oprime el boton de la esquina inferior derecha para comenzar a crear notas.</string>
+    <string name="PlayerDialogTitle">Grabación</string>
     <string name="ApplicationName">Dibbi</string>
+    <string name="RecordDescription">Grabando...</string>
+    <string name="ClockLabel">0:00</string>
 </resources>
