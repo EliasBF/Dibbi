@@ -3,5 +3,65 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:layout_weight="1">
+    <Toolbar
+        android:id="@+id/MainTopToolbar"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@android:style/ThemeOverlay.Material.ActionBar" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/ListNotes"
+        android:divider="#757575"
+        android:background="#FFFFFF" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/RecordDescription"
+        android:visibility="gone"
+        android:gravity="center">
+      
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dip"
+            android:text="@string/RecordDescription"
+            android:padding="12dp"
+            android:textColor="@color/textColorPrimary"
+            android:layout_gravity="center"/>
+      
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="48dip"
+            android:padding="12dp"
+            android:textColor="@color/textColorPrimary"
+            android:id="@+id/RecordDuration"
+            android:layout_gravity="center"
+            android:text="@string/ClockLabel"/>
+    
+    </LinearLayout>
+    <TextView
+        android:id="@+id/MainListEmptyDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="24dip"
+        android:text="@string/MainListEmpty"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textColor="@color/textColorPrimary" />
+    <Toolbar
+        android:id="@+id/MainBottomToolbar"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@android:style/ThemeOverlay.Material.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
